@@ -1,0 +1,17 @@
+[Unit]
+Description=FlowWire Daemon
+After=network.target sound.target
+Requires=flowwire.socket
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/flowwire-daemon
+Restart=on-failure
+RestartSec=5
+User=flowwire
+Group=flowwire
+Environment=RUST_LOG=info
+WorkingDirectory=/usr/local/share/flowwire
+
+[Install]
+WantedBy=multi-user.target
