@@ -1,0 +1,6 @@
+[video]
+default_camera = "Webcam"
+resolution = "1280x720"
+framerate = 30
+encoder_bitrate = 4000
+compositor_enabled = true
