@@ -1,0 +1,11 @@
+[Unit]
+Description=FlowWire IPC Socket
+
+[Socket]
+ListenStream=/run/flowwire.sock
+SocketUser=flowwire
+SocketGroup=flowwire
+SocketMode=0660
+
+[Install]
+WantedBy=sockets.target
