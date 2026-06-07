@@ -1,0 +1,11 @@
+[package]
+name = "flowwire-gui"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0"
+eframe = "0.25"       # egui framework
+egui = "0.25"
+log = "0.4"
+flowwire-core = { path = "../flowwire-core" }
