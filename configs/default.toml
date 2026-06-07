@@ -1,0 +1,5 @@
+[general]
+log_level = "info"
+ipc_socket_path = "/run/flowwire.sock"
+plugins_dir = "/usr/local/share/flowwire/plugins"
+theme = "dark"
