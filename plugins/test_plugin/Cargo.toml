@@ -1,0 +1,10 @@
+[package]
+name = "test_plugin"
+version = "0.1.0"
+edition = "2021"
+crate-type = ["cdylib"]  # critical for dynamic loading
+
+[dependencies]
+flowwire-plugins = { path = "../src" }
+flowwire-core = { path = "../../crates/flowwire-core" }
+anyhow = "1.0"
