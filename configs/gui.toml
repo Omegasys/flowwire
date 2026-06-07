@@ -1,0 +1,6 @@
+[gui]
+window_width = 1200
+window_height = 800
+theme = "dark"
+show_panels = ["devices", "streams", "latency", "logs"]
+refresh_rate = 60
