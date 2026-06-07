@@ -1,0 +1,7 @@
+[audio]
+default_input = "Microphone"
+default_output = "Speakers"
+sample_rate = 48000
+channels = 2
+resampler_quality = "high"
+mixer_gain = 1.0
